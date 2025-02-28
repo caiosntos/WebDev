@@ -19,9 +19,35 @@
         <a href="produtos.html"><div class="opcao">Produtos</div></a>
         <a href="faleconosco.html"><div class="opcao">Fale Conosco</div></a>
     </nav>
-            <section>
-
-              </section>
+    <section> 
+        <h2>Fale conosco!</h2>
+        <p>Ficou com alguma duvida? Preencha este formulário e entraremos em contato!</p>
+        <form name="frmfaleconosco" method="post"  action="#">
+          <fieldset>
+            <legend>Dados Pessoais:</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" name="txtnome" id="nome">
+            <label for="fone">Telefone</label>
+            <input type="text" name="txtfone" id="fone">
+            <label for="email">E-mail:</label>
+            <input type="email" name="txtemail" id="email">
+          </fieldset>
+          <fieldset>
+            <legend>Motivo do contato></legend>
+            <label for="motivo">Motivo:</label>
+            <select name="selmotivo" id="motivo">
+              <option value="">Escolha</option>
+              <option value="RE">Reclamação</option>
+              <option value="SU">Sugestão</option>
+              <option value="PR">Informação sobre Produtos</option>
+            </select>
+            <label for="comentario">Comentário:</label>
+            <textarea name="txacomentario" id="comentario"></textarea>
+            <button type="reset">Limpar</button>
+            <button type="submit">Enviar</button>
+          </fieldset>
+        </form>
+    </section>
             <footer>Copyright &copy; Escola Sistemâtica 2019</footer> <!-- &copy; = para indicar que o conteúdo de uma página da web está protegido por direitos autorai-->
   </body>
 </html>
