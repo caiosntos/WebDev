@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fale Conosco</title>
     <link rel="stylesheet" type="text/css" href="../../css/site.css">
+    <script src="../../js/site.js"></script>
   </head>
   <body>
     <header>
@@ -22,7 +23,7 @@
     <section> 
         <h2>Fale conosco!</h2>
         <p>Ficou com alguma duvida? Preencha este formulário e entraremos em contato!</p>
-        <form name="frmfaleconosco" method="post"  action="#">
+        <form name="frmfaleconosco" method="get"  action="#" onsubmit="return validaFaleConosco()"> 
           <fieldset class="faleConosco">
             <legend>Dados Pessoais:</legend>
             <label for="nome">Nome:</label>
