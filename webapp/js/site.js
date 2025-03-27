@@ -78,3 +78,10 @@ function verificaMotivo(motivo){
         }
     }
 }
+
+$(document).ready(function(){
+    $("header").load("/ProjetoFrontEnd/pages/sites/general/cabecalho.html");
+    $("nav").load("/ProjetoFrontEnd/pages/sites/general/menu.html");
+    $("header").load("/ProjetoFrontEnd/pages/sites/general/rodape.html");
+});
+
