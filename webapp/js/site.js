@@ -80,8 +80,8 @@ function verificaMotivo(motivo){
 }
 
 $(document).ready(function(){
-    $("header").load("/ProjetoFrontEnd/pages/sites/general/cabecalho.html");
-    $("nav").load("/ProjetoFrontEnd/pages/sites/general/menu.html");
-    $("header").load("/ProjetoFrontEnd/pages/sites/general/rodape.html");
+    $("header").load("/webapp/pages/sites/general/cabecalho.html");
+    $("nav").load("/webapp/pages/sites/general/menu.html");
+    $("footer").load("/webapp/pages/sites/general/rodape.html");
 });
 
